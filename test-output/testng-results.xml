@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19156" started-at="2021-11-04T00:06:34Z" finished-at="2021-11-04T00:06:53Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.careerhack.runners.TestRunner@ef9296d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="19156" started-at="2021-11-04T00:06:34Z" finished-at="2021-11-04T00:06:53Z">
+      <class name="com.careerhack.runners.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.careerhack.runners.TestRunner@ef9296d]" name="setUpClass" is-config="true" duration-ms="322" started-at="2021-11-04T00:06:34Z" finished-at="2021-11-04T00:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.careerhack.runners.TestRunner@ef9296d]" name="runScenario" duration-ms="9963" started-at="2021-11-04T00:06:35Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-04T00:06:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["simple search"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[google search]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.careerhack.runners.TestRunner@ef9296d]" name="runScenario" duration-ms="8815" started-at="2021-11-04T00:06:45Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-04T00:06:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["simple search"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[google search]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.careerhack.runners.TestRunner@ef9296d]" name="tearDownClass" is-config="true" duration-ms="22" started-at="2021-11-04T00:06:53Z" finished-at="2021-11-04T00:06:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.careerhack.runners.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
